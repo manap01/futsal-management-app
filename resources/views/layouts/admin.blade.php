@@ -100,8 +100,8 @@
     <aside
         class="h-screen w-64 fixed left-0 top-0 border-r border-[#ffffff]/10 bg-[#0e0e13]/80 backdrop-blur-xl z-50 flex flex-col p-4 gap-2 font-['Space_Grotesk'] tracking-tight shadow-[0_0_64px_rgba(0,0,0,0.4)]">
         <div class="mb-8 px-4 py-6">
-            <h1 class="text-2xl font-black text-[#a4ffb9] tracking-tighter italic uppercase">LARAFELL ARENA</h1>
-            <p class="text-[10px] text-on-surface-variant tracking-[0.2em] uppercase mt-1">LARAGON Management</p>
+            <h1 class="text-2xl font-black text-[#a4ffb9] tracking-tighter italic uppercase">GARUDA FUTSALL</h1>
+            <p class="text-[10px] text-on-surface-variant tracking-[0.2em] uppercase mt-1">GARUDA Management</p>
         </div>
         <nav class="flex-1 space-y-1">
             <a class="flex items-center gap-3 px-4 py-3 {{ request()->routeIs('admin.dashboard') ? 'text-[#a4ffb9] bg-[#00fd87]/10 rounded-xl shadow-[0_0_15px_rgba(0,253,135,0.2)] border-l-4 border-[#a4ffb9]' : 'text-[#f9f5fd]/60 hover:text-[#a4ffb9] hover:bg-[#25252d]' }} transition-transform duration-150 active:scale-95"
@@ -128,6 +128,11 @@
                 href="{{ route('admin.reports') }}">
                 <span class="material-symbols-outlined">analytics</span>
                 <span class="font-bold">Reports</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 {{ request()->routeIs('admin.users.*') ? 'text-[#a4ffb9] bg-[#00fd87]/10 rounded-xl shadow-[0_0_15px_rgba(0,253,135,0.2)] border-l-4 border-[#a4ffb9]' : 'text-[#f9f5fd]/60 hover:text-[#a4ffb9] hover:bg-[#25252d]' }} transition-all duration-300"
+                href="{{ route('admin.users.index') }}">
+                <span class="material-symbols-outlined">group</span>
+                <span class="font-bold">Akun</span>
             </a>
             <a class="flex items-center gap-3 px-4 py-3 {{ request()->routeIs('admin.settings') ? 'text-[#a4ffb9] bg-[#00fd87]/10 rounded-xl shadow-[0_0_15px_rgba(0,253,135,0.2)] border-l-4 border-[#a4ffb9]' : 'text-[#f9f5fd]/60 hover:text-[#a4ffb9] hover:bg-[#25252d]' }} transition-all duration-300"
                 href="{{ route('admin.settings') }}">

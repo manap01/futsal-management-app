@@ -180,6 +180,17 @@
                             <div class="h-[1px] flex-grow bg-surface-container-highest"></div>
                         </div>
                         <div class="glass-card p-8 rounded-xl space-y-8">
+                            <div class="p-6 bg-primary/10 border border-primary/20 rounded-2xl mb-6">
+                                <h4 class="text-primary font-headline font-bold uppercase tracking-widest text-xs mb-3 flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-sm">payments</span>
+                                    Informasi Pembayaran
+                                </h4>
+                                <div class="space-y-2">
+                                    <p class="text-on-surface text-sm font-bold italic tracking-tight">BANK BCA</p>
+                                    <p class="text-2xl font-black font-headline text-primary tracking-tighter italic">1234567890</p>
+                                    <p class="text-[10px] text-on-surface-variant font-bold uppercase tracking-widest">A/N GARUDA FUTSALL ARENA</p>
+                                </div>
+                            </div>
                             <div class="space-y-2">
                                 <label class="block text-[10px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">No WhatsApp *</label>
                                 <input type="tel" name="customer_phone" class="w-full bg-surface-container-low border-b border-outline-variant p-4 font-headline font-medium text-lg focus:border-primary transition-colors" placeholder="+62 812..." required>

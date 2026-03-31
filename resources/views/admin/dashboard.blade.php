@@ -6,11 +6,14 @@
 <!-- Headline -->
 <div class="flex justify-between items-end">
     <div>
-        <h2 class="text-4xl font-headline font-black text-on-surface tracking-tight uppercase">Arena Dashboard</h2>
+        <h2 class="text-4xl font-headline font-black text-on-surface tracking-tight uppercase">Garuda Dashboard</h2>
         <p class="text-on-surface-variant font-label text-sm uppercase tracking-[0.2em] mt-1">Live Venue Analytics &amp; Management</p>
     </div>
     <div class="flex gap-2">
-        <button class="bg-surface-container-highest hover:bg-surface-bright text-on-surface px-6 py-2 rounded-xl font-bold text-xs uppercase tracking-widest transition-all border border-white/5">Export CSV</button>
+        <a href="{{ route('admin.export.csv') }}" class="bg-surface-container-highest hover:bg-surface-bright text-on-surface px-6 py-2 rounded-xl font-bold text-xs uppercase tracking-widest transition-all border border-white/5 flex items-center gap-2">
+            <span class="material-symbols-outlined text-sm">download</span>
+            Export CSV
+        </a>
         <a href="{{ route('admin.bookings.index') }}" class="bg-primary text-on-primary px-6 py-2 rounded-xl font-bold text-xs uppercase tracking-widest hover:shadow-[0_0_20px_rgba(164,255,185,0.4)] transition-all">New Booking</a>
     </div>
 </div>
@@ -120,7 +123,6 @@
                 $height = ($revenues[$index] / $maxRevenue) * 100;
                 // Ensure a minimum height for visibility if there is revenue
                 if ($revenues[$index] > 0 && $height < 10) $height = 10;
-                $style = "height: " . $height . "%;";
             @endphp
             <div class="flex-1 flex flex-col items-center gap-3 group">
                 <div class="w-full bg-surface-container-high rounded-t-xl relative overflow-hidden h-full group-hover:bg-primary/10 transition-colors">

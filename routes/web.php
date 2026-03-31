@@ -6,6 +6,8 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\Admin\BookingController as AdminBookingController;
 use App\Http\Controllers\Admin\CourtController as AdminCourtController;
+use App\Http\Controllers\Admin\UserController as AdminUserController;
+use App\Http\Controllers\Admin\ExportController as AdminExportController;
 use App\Models\Court;
 
 Route::get('/', function () {
@@ -52,8 +54,20 @@ Route::middleware(['auth'])->group(function () {
         'destroy' => 'admin.courts.destroy',
     ]);
 
+    Route::resource('admin/users', AdminUserController::class)->names([
+        'index' => 'admin.users.index',
+        'create' => 'admin.users.create',
+        'store' => 'admin.users.store',
+        'edit' => 'admin.users.edit',
+        'update' => 'admin.users.update',
+        'destroy' => 'admin.users.destroy',
+    ]);
+
     // Proper routes for other menus
     Route::get('/admin/finance', function () { return view('admin.finance'); })->name('admin.finance');
     Route::get('/admin/reports', function () { return view('admin.reports'); })->name('admin.reports');
     Route::get('/admin/settings', function () { return view('admin.settings'); })->name('admin.settings');
+
+    // Export Routes
+    Route::get('/admin/export/csv', [AdminExportController::class, 'exportBookingsCsv'])->name('admin.export.csv');
 });

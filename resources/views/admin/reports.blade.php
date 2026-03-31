@@ -10,8 +10,8 @@
 <section class="mb-10 flex justify-between items-end">
     <div>
         <h2 class="font-headline text-5xl font-black tracking-tighter uppercase italic text-on-surface mb-2">
-            Performance <span class="text-primary">Reports</span></h2>
-        <p class="font-body text-on-surface-variant max-w-xl text-sm uppercase tracking-widest">Comprehensive analytical breakdown of Arena Pro
+            Garuda <span class="text-primary">Reports</span></h2>
+        <p class="font-body text-on-surface-variant max-w-xl text-sm uppercase tracking-widest">Comprehensive analytical breakdown of Garuda Futsall
             operations. Monitor growth, occupancy, and revenue streams.</p>
     </div>
     <div class="flex gap-2">
@@ -138,7 +138,6 @@
                 $date = now()->subDays($i);
                 $count = \App\Models\Booking::whereDate('date', $date->format('Y-m-d'))->count();
                 $height = min(100, $count * 10 + 5);
-                $style = "height: " . $height . "%;";
             @endphp
             <div class="flex-1 bg-surface-container rounded-t-sm group relative" style="height: <?php echo $height; ?>%;">
                 <div
@@ -165,10 +164,10 @@
                 class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-4 py-2 rounded-full hover:bg-surface-container-highest transition-all">
                 <span class="material-symbols-outlined text-sm">filter_list</span> Filter
             </button>
-            <button
+            <a href="{{ route('admin.export.csv') }}"
                 class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-4 py-2 rounded-full hover:bg-surface-container-highest transition-all">
                 <span class="material-symbols-outlined text-sm">download</span> CSV
-            </button>
+            </a>
         </div>
     </div>
     <div class="overflow-x-auto">
