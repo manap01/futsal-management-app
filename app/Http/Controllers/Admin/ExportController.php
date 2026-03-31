@@ -15,6 +15,9 @@ class ExportController extends Controller
 
         $response = new StreamedResponse(function () use ($bookings) {
             $handle = fopen('php://output', 'w');
+            
+            // Add UTF-8 BOM for Excel
+            fprintf($handle, chr(0xEF).chr(0xBB).chr(0xBF));
 
             // Add CSV headers
             fputcsv($handle, [
@@ -33,7 +36,13 @@ class ExportController extends Controller
             foreach ($bookings as $booking) {
                 // Format phone number to keep leading zero in Excel
                 $phone = $booking->customer_phone;
-                if ($phone && (str_starts_with($phone, '0') || str_starts_with($phone, '+'))) {
+                if ($phone) {
+                    // If it starts with 8, add 0 (Indonesian phone numbers)
+                    if (str_starts_with($phone, '8')) {
+                        $phone = '0' . $phone;
+                    }
+                    
+                    // Force Excel to treat as text
                     $phone = '="' . $phone . '"';
                 }
 

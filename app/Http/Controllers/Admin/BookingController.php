@@ -8,10 +8,17 @@ use Illuminate\Http\Request;
 
 class BookingController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $bookings = Booking::with('court')->latest()->get();
-        return view('admin.bookings.index', compact('bookings'));
+        $status = $request->get('status', 'all');
+        $query = Booking::with('court')->latest();
+
+        if ($status !== 'all') {
+            $query->where('status', $status);
+        }
+
+        $bookings = $query->get();
+        return view('admin.bookings.index', compact('bookings', 'status'));
     }
 
     public function confirm($id)

@@ -10,6 +10,26 @@
     </div>
 </div>
 
+<!-- Status Filter Tabs -->
+<div class="flex gap-2 mb-6">
+    <a href="{{ route('admin.bookings.index', ['status' => 'all']) }}" 
+       class="px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest transition-all {{ $status == 'all' ? 'bg-primary text-on-primary shadow-lg shadow-primary/20' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high' }}">
+        All
+    </a>
+    <a href="{{ route('admin.bookings.index', ['status' => 'pending']) }}" 
+       class="px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest transition-all {{ $status == 'pending' ? 'bg-amber-500 text-white shadow-lg shadow-amber-500/20' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high' }}">
+        Pending
+    </a>
+    <a href="{{ route('admin.bookings.index', ['status' => 'confirmed']) }}" 
+       class="px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest transition-all {{ $status == 'confirmed' ? 'bg-primary text-on-primary shadow-lg shadow-primary/20' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high' }}">
+        Confirmed
+    </a>
+    <a href="{{ route('admin.bookings.index', ['status' => 'cancelled']) }}" 
+       class="px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest transition-all {{ $status == 'cancelled' ? 'bg-error text-on-error shadow-lg shadow-error/20' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high' }}">
+        Cancelled
+    </a>
+</div>
+
 <div class="glass-card rounded-3xl overflow-hidden border border-white/5">
     <div class="overflow-x-auto">
         <table class="w-full text-left">
@@ -42,10 +62,12 @@
                     </td>
                     <td class="px-6 py-4 text-sm text-on-surface-variant font-bold">{{ $booking->court->name }}</td>
                     <td class="px-6 py-4 text-sm text-on-surface-variant">{{ $booking->start_time }} - {{ $booking->end_time }}</td>
-                    <td class="px-6 py-4 text-sm font-bold text-primary text-nowrap">Rp {{ number_format($booking->total_price, 0, ',', '.') }}</td>
+                    <td class="px-6 py-4 text-sm font-bold text-primary whitespace-nowrap">Rp {{ number_format($booking->total_price, 0, ',', '.') }}</td>
                     <td class="px-6 py-4 text-center">
                         @if($booking->payment_proof)
-                        <button onclick="showProof('{{ asset('storage/' . $booking->payment_proof) }}')" 
+                        <button type="button" 
+                                data-proof-url="{{ asset('storage/' . $booking->payment_proof) }}"
+                                onclick="showProof(this.dataset.proofUrl)" 
                                 class="p-2 bg-primary/10 text-primary rounded-lg hover:bg-primary/20 transition-all">
                             <span class="material-symbols-outlined text-sm">image</span>
                         </button>
@@ -94,7 +116,7 @@
 <!-- Modal for Payment Proof -->
 <div id="proofModal" class="fixed inset-0 z-[100] hidden">
     <div class="absolute inset-0 bg-black/90 backdrop-blur-sm" onclick="closeModal()"></div>
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-lg p-4">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-2xl p-4">
         <div class="bg-surface-container rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
             <div class="p-4 border-b border-white/5 flex justify-between items-center bg-surface-container-high">
                 <h3 class="font-headline font-black uppercase italic tracking-widest text-primary text-xs">Payment Proof</h3>
@@ -102,8 +124,11 @@
                     <span class="material-symbols-outlined">close</span>
                 </button>
             </div>
-            <div class="p-4">
-                <img id="proofImg" src="" alt="Payment Proof" class="w-full h-auto rounded-xl">
+            <div class="p-4 flex justify-center bg-black/40 overflow-y-auto max-h-[70vh]">
+                <img id="proofImg" src="" alt="Payment Proof" class="max-w-full h-auto rounded-xl shadow-2xl border border-white/10 object-contain">
+            </div>
+            <div class="p-4 bg-surface-container-high border-t border-white/5 text-center">
+                <p class="text-[10px] text-on-surface-variant uppercase tracking-widest font-bold">Scroll to see full image if needed</p>
             </div>
         </div>
     </div>
@@ -111,11 +136,18 @@
 
 <script>
     function showProof(src) {
-        document.getElementById('proofImg').src = src;
-        document.getElementById('proofModal').classList.remove('hidden');
+        if (!src) return;
+        const modal = document.getElementById('proofModal');
+        const img = document.getElementById('proofImg');
+        
+        img.src = src;
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; // Prevent scroll
     }
     function closeModal() {
-        document.getElementById('proofModal').classList.add('hidden');
+        const modal = document.getElementById('proofModal');
+        modal.classList.add('hidden');
+        document.body.style.overflow = 'auto'; // Restore scroll
     }
 </script>
 @endsection
