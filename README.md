@@ -7,52 +7,78 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# 🏟️ GARUDA FUTSALL ARENA - Management System
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+GARUDA FUTSALL ARENA adalah platform manajemen penyewaan lapangan futsal berbasis web yang modern, cepat, dan mudah digunakan. Dibangun dengan Laravel 13 dan Tailwind CSS, sistem ini menawarkan pengalaman manajemen arena yang komprehensif mulai dari reservasi hingga laporan keuangan.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Dashboard Real-time**: Pantau pendapatan harian, slot aktif, dan okupansi lapangan secara live.
+- **Manajemen Booking**: Kelola reservasi dengan mudah, verifikasi bukti pembayaran (foto), dan konfirmasi status.
+- **Manajemen Lapangan**: Tambah, edit, dan kelola berbagai jenis lapangan (Indoor/Outdoor).
+- **Laporan Performa**: Analisis pendapatan bulanan dan tahunan dengan grafik interaktif.
+- **Export CSV**: Unduh data transaksi ke Excel dengan format yang rapi dan profesional.
+- **Multi-Admin**: Kelola akun admin tambahan dengan hak akses yang terintegrasi.
+- **UI Modern**: Desain Glassmorphism yang futuristik dan responsif.
 
-## Learning Laravel
+## 👥 Authors & Contributors
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Kami bangga mempersembahkan proyek ini yang dikembangkan oleh tim:
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Shac1x** - [GitHub Profile](https://github.com/shac1x)
+- **Firza Aditiya** - [GitHub Profile](https://github.com/firzaaditiya)
+- **Manap01** - [GitHub Profile](https://github.com/manap01)
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+## 🎨 Design Reference
 
-## Agentic Development
+Sistem ini mengikuti panduan desain modern yang dapat dilihat pada:
+[Figma Design Link](https://www.figma.com/design/0ppDoxsrhH5Qd6VoFiWhPw/Untitled?node-id=0-1&t=Y4j3WYPlkrE6gMeW-1)
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+## 🛠️ Persyaratan Sistem
 
-```bash
-composer require laravel/boost --dev
+- PHP >= 8.3
+- Composer
+- MySQL / MariaDB
+- Node.js & NPM
 
-php artisan boost:install
-```
+## ⚙️ Cara Instalasi
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/your-repo/garuda-futsall.git
+   cd garuda-futsall
+   ```
 
-## Contributing
+2. **Instal Dependensi**
+   ```bash
+   composer install
+   npm install && npm run build
+   ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3. **Konfigurasi Environment**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+   *Pastikan konfigurasi `DB_HOST`, `DB_DATABASE`, dll. sudah sesuai di file `.env`.*
 
-## Code of Conduct
+4. **Migrasi & Seed Data**
+   ```bash
+   php artisan migrate --seed
+   ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+5. **Jalankan Server**
+   ```bash
+   php artisan serve
+   ```
 
-## Security Vulnerabilities
+## 📖 Panduan Penggunaan Admin
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Login**: Masuk menggunakan akun admin yang telah didaftarkan.
+- **Verifikasi Bukti**: Buka menu **Booking**, klik ikon gambar (Bukti) untuk melihat foto transfer yang dikirim pemboking.
+- **Konfirmasi**: Klik ikon centang untuk mengonfirmasi boking jika bukti pembayaran sudah valid.
+- **Export Data**: Gunakan tombol **Export CSV** di Dashboard atau Reports untuk laporan bulanan.
 
-## License
+## 📜 License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Sistem ini adalah software open-source di bawah lisensi [MIT License](https://opensource.org/licenses/MIT).
