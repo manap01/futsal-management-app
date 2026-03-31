@@ -1,212 +1,128 @@
 <div align="center">
 
-<!-- ANIMATED HEADER WAVE TOP -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=GARUDA%20FUTSALL%20ARENA&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Modern%20Futsal%20Management%20System%20%7C%20Laravel%2013&descAlignY=62&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=GARUDA%20FUTSAL%20ARENA&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Modern%20Futsal%20Management%20System%20%7C%20Laravel%2013&descAlignY=62&descSize=18" width="100%"/>
 
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=FF6B35&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=80&lines=Built+with+Laravel+13+%2B+Tailwind+CSS;Real-time+Dashboard+%7C+Smart+Booking+System;Glassmorphism+UI+%7C+Fully+Responsive+Design" alt="Typing SVG"/>
-</a>
-
-<br/><br/>
-
-<!-- BADGES ROW 1 -->
-<img src="https://img.shields.io/badge/Laravel-13.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-<img src="https://img.shields.io/badge/PHP-8.3+-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/TailwindCSS-3.x-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-
-<br/><br/>
-
-<!-- BADGES ROW 2 -->
-<img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge&logo=statuspage&logoColor=white"/>
-<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=open-source-initiative&logoColor=white"/>
-<img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge&logo=semver&logoColor=white"/>
-<img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions&logoColor=white"/>
-
-<br/><br/>
-
-<!-- LARAVEL OFFICIAL BADGES -->
-<a href="https://github.com/laravel/framework/actions">
-  <img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"/>
-</a>
-&nbsp;
-<a href="https://packagist.org/packages/laravel/framework">
-  <img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"/>
-</a>
-&nbsp;
-<a href="https://packagist.org/packages/laravel/framework">
-  <img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"/>
-</a>
-&nbsp;
-<a href="https://packagist.org/packages/laravel/framework">
-  <img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"/>
-</a>
-
-</div>
-
----
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## Daftar Isi
-
-<details>
-<summary><b>Klik untuk membuka navigasi lengkap</b></summary>
 <br/>
 
-- [Tentang Proyek](#tentang-proyek)
-- [Fitur Utama](#fitur-utama)
-- [Tech Stack](#tech-stack)
-- [Persyaratan Sistem](#persyaratan-sistem)
-- [Cara Instalasi](#cara-instalasi)
-- [Akun Default](#akun-default)
-- [Panduan Admin](#panduan-penggunaan-admin)
-- [Struktur Proyek](#struktur-proyek)
-- [Design Reference](#design-reference)
-- [Contributors](#authors--contributors)
-- [Lisensi](#lisensi)
-
-</details>
-
----
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## Tentang Proyek
-
-<img align="right" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
-
-**GARUDA FUTSALL ARENA** adalah sistem manajemen arena futsal yang komprehensif dan modern. Platform ini mencakup seluruh alur operasional arena secara digital:
-
-- Reservasi lapangan real-time tanpa antrian
-- Verifikasi pembayaran otomatis via foto bukti transfer
-- Dashboard analitik dengan grafik pendapatan interaktif
-- Export laporan ke CSV/Excel dengan satu klik
-- Multi-Admin management dengan hak akses terintegrasi
-- UI Glassmorphism yang futuristik dan fully responsive
-
-Dibangun di atas fondasi **Laravel 13** — cocok untuk skala kecil maupun besar.
-
-<br clear="right"/>
-
----
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## Fitur Utama
-
-<div align="center">
-
-```
-================================================================================
-                    GARUDA FUTSAL - SYSTEM DOCUMENTATION
-================================================================================
-
-  FITUR UTAMA SISTEM
---------------------------------------------------------------------------------
-  Fitur                  | Deskripsi                                   | Status
---------------------------------------------------------------------------------
-  Dashboard Real-time    | Monitor pendapatan, slot aktif & okupansi   | Ready
-  Manajemen Booking      | Kelola reservasi & verifikasi status bayar  | Ready
-  Manajemen Lapangan     | Kelola data lapangan Indoor & Outdoor        | Ready
-  Laporan Performa       | Analisis grafik pendapatan bulanan/tahunan  | Ready
-  Export CSV             | Unduh data transaksi ke format Excel/CSV    | Ready
-  Multi-Admin            | Manajemen akun admin, akses terintegrasi    | Ready
-  UI Glassmorphism       | Desain modern, futuristik & responsif       | Ready
---------------------------------------------------------------------------------
-```
-
-</div>
-
-| Fitur | Deskripsi | Status |
-|:---|:---|:---:|
-| **Dashboard Real-time** | Monitor pendapatan, slot aktif & okupansi live | ✅ Ready |
-| **Manajemen Booking** | Kelola reservasi & verifikasi status bayar | ✅ Ready |
-| **Manajemen Lapangan** | Kelola data lapangan Indoor & Outdoor | ✅ Ready |
-| **Laporan Performa** | Analisis grafik pendapatan bulanan/tahunan | ✅ Ready |
-| **Export CSV** | Unduh data transaksi ke format Excel/CSV | ✅ Ready |
-| **Multi-Admin** | Manajemen akun admin dengan akses terintegrasi | ✅ Ready |
-| **UI Glassmorphism** | Desain modern, futuristik & responsif | ✅ Ready |
-
----
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## Tech Stack
-
-<div align="center">
-
-**— Backend —**
-
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1200&color=FF6B35&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=70&lines=Built+with+Laravel+13+%2B+Tailwind+CSS;Real-time+Dashboard+%7C+Smart+Booking+System;Glassmorphism+UI+%7C+Fully+Responsive+Design" alt="Typing SVG"/>
+</a>
 
 <br/><br/>
 
-**— Frontend —**
+![Laravel](https://img.shields.io/badge/Laravel-13.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.3+-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-<img src="https://img.shields.io/badge/Blade_Template-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white"/>
+<br/>
 
-<br/><br/>
-
-**— Tools & DevOps —**
-
-<img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white"/>
-<img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions&logoColor=white)
 
 </div>
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+## 📋 Daftar Isi
 
-## Persyaratan Sistem
-
-```
-PHP       >= 8.3
-Composer  >= 2.x
-MySQL     >= 8.0  /  MariaDB >= 10.x
-Node.js   >= 18.x
-NPM       >= 9.x
-```
+- [Tentang Proyek](#-tentang-proyek)
+- [Fitur Utama](#-fitur-utama)
+- [Tech Stack](#-tech-stack)
+- [Persyaratan Sistem](#-persyaratan-sistem)
+- [Instalasi](#-instalasi)
+- [Akun Default](#-akun-default)
+- [Panduan Admin](#-panduan-penggunaan-admin)
+- [Struktur Folder](#-struktur-folder)
+- [Design Reference](#-design-reference)
+- [Contributors](#-contributors)
+- [Lisensi](#-lisensi)
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+## 🏟️ Tentang Proyek
 
-## Cara Instalasi
+**Garuda Futsal Arena** adalah sistem manajemen arena futsal yang komprehensif dan modern, dibangun di atas fondasi **Laravel 13**. Platform ini mendigitalisasi seluruh alur operasional arena — mulai dari reservasi lapangan, verifikasi pembayaran, hingga laporan keuangan — dalam satu antarmuka yang terintegrasi dan responsif.
 
-### Langkah 1 — Clone Repository
+> Cocok untuk skala kecil maupun besar. Siap produksi tanpa konfigurasi tambahan.
+
+---
+
+## ✨ Fitur Utama
+
+| No | Fitur | Deskripsi | Status |
+|:--:|:------|:----------|:------:|
+| 1 | **Dashboard Real-time** | Monitor pendapatan, slot aktif & tingkat okupansi secara live | ✅ |
+| 2 | **Manajemen Booking** | Kelola reservasi, verifikasi bukti transfer, & konfirmasi status | ✅ |
+| 3 | **Manajemen Lapangan** | Tambah & kelola lapangan Indoor / Outdoor beserta statusnya | ✅ |
+| 4 | **Laporan Performa** | Grafik pendapatan interaktif per bulan / per tahun | ✅ |
+| 5 | **Export CSV / Excel** | Unduh seluruh data transaksi dengan satu klik | ✅ |
+| 6 | **Multi-Admin** | Manajemen akun admin dengan hak akses terintegrasi | ✅ |
+| 7 | **UI Glassmorphism** | Desain modern, futuristik, dan fully responsive | ✅ |
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+### Frontend
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Blade](https://img.shields.io/badge/Blade_Template-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+
+### Tools & DevOps
+![Composer](https://img.shields.io/badge/Composer-885630?style=flat-square&logo=composer&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+
+---
+
+## 💻 Persyaratan Sistem
+
+| Dependensi | Versi Minimum |
+|:-----------|:-------------:|
+| PHP        | `>= 8.3`      |
+| Composer   | `>= 2.x`      |
+| MySQL      | `>= 8.0`      |
+| Node.js    | `>= 18.x`     |
+| NPM        | `>= 9.x`      |
+
+---
+
+## 🚀 Instalasi
+
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/your-repo/garuda-futsall.git
 cd garuda-futsall
 ```
 
-### Langkah 2 — Instal Dependensi PHP & Node
+### 2. Instal Dependensi
 
 ```bash
 composer install
 npm install && npm run build
 ```
 
-### Langkah 3 — Konfigurasi Environment
+### 3. Konfigurasi Environment
 
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-Edit file `.env` dan sesuaikan konfigurasi database:
+Sesuaikan konfigurasi database di file `.env`:
 
 ```env
 DB_CONNECTION=mysql
@@ -217,200 +133,245 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### Langkah 4 — Migrasi Database & Seed Data
+### 4. Migrasi & Seed Database
 
 ```bash
 php artisan migrate --seed
 ```
 
-### Langkah 5 — Jalankan Server
+### 5. Jalankan Server
 
 ```bash
 php artisan serve
 ```
 
-<div align="center">
-
 > Aplikasi berjalan di **`http://127.0.0.1:8000`**
 
-</div>
+---
+
+## 🔑 Akun Default
+
+Setelah seeder berhasil dijalankan, gunakan kredensial berikut untuk login pertama kali:
+
+| Field    | Value         |
+|:--------:|:-------------:|
+| Email    | `putsall123`  |
+| Password | `putsall123`  |
+
+> ⚠️ **Peringatan:** Segera ganti password setelah login pertama kali untuk keamanan sistem.
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+## 🛡️ Panduan Penggunaan Admin
 
-## Akun Default
+### 1. 🔐 Login ke Sistem
 
-<div align="center">
-
-Setelah seeder berjalan, gunakan kredensial berikut untuk login:
-
-| Field | Value |
-|:---:|:---:|
-| **Username / Email** | `putsall123` |
-| **Password** | `putsall123` |
-
-> **Peringatan Keamanan:** Segera ganti password setelah login pertama kali!
-
-</div>
+1. Buka browser dan akses `http://127.0.0.1:8000/admin/login`
+2. Masukkan **Email** dan **Password** admin yang terdaftar
+3. Klik tombol **Masuk** — Anda akan diarahkan ke halaman Dashboard
+4. Dashboard menampilkan **ringkasan aktivitas hari ini** secara real-time
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+### 2. 📋 Manajemen Booking
 
-## Panduan Penggunaan Admin
+Akses menu **Booking Management** dari sidebar untuk mengelola seluruh reservasi.
 
-<div align="center">
+#### Melihat Daftar Booking
+- Tabel menampilkan: nama pemesan, lapangan, jam, tanggal, status pembayaran
+- Gunakan filter **tanggal** dan **status** untuk mempersempit pencarian
+- Klik ikon **👁️ Eye** untuk melihat detail lengkap sebuah booking
 
-```
-================================================================================
-  PANDUAN PENGGUNAAN ADMIN
-================================================================================
-```
+#### Verifikasi Bukti Pembayaran
+- Klik ikon **🖼️ Image** pada kolom `Bukti Transfer`
+- Foto bukti pembayaran tampil dalam modal — scroll jika gambar panjang
+- Pastikan nominal dan rekening tujuan sudah sesuai sebelum konfirmasi
 
-</div>
-
-<details>
-<summary><b>1. Login ke Sistem</b></summary>
-<br/>
-
-- Masuk ke halaman admin menggunakan email dan password yang terdaftar.
-- Dashboard akan menampilkan ringkasan aktivitas futsal hari ini.
-
-<br/>
-</details>
-
-<details>
-<summary><b>2. Verifikasi Bukti Pembayaran</b></summary>
-<br/>
-
-- Buka menu **Booking Management**
-- Klik ikon **Image** pada kolom `Bukti` untuk melihat foto transfer
-- Foto akan muncul dalam modal (bisa di-scroll jika gambar panjang)
-
-<br/>
-</details>
-
-<details>
-<summary><b>3. Konfirmasi Booking</b></summary>
-<br/>
-
-- Setelah bukti pembayaran valid, klik tombol **Check Circle** (Konfirmasi)
-- Status akan berubah menjadi `Confirmed` — ditandai warna **Hijau**
-- Jika batal, klik tombol **Cancel** — ditandai warna **Merah**
-
-<br/>
-</details>
-
-<details>
-<summary><b>4. Export Laporan CSV</b></summary>
-<br/>
-
-- Masuk ke halaman **Laporan / Dashboard**
-- Pilih range waktu yang diinginkan
-- Klik tombol **Export** untuk mengunduh data dalam format `.csv` (Excel)
-
-<br/>
-</details>
-
-<details>
-<summary><b>5. Manajemen Lapangan</b></summary>
-<br/>
-
-- Masuk ke menu **Courts**
-- Tambah lapangan baru atau ubah status lapangan aktif / non-aktif
-
-<br/>
-</details>
+#### Konfirmasi atau Tolak Booking
+| Aksi | Tombol | Hasil |
+|:-----|:------:|:------|
+| Setujui pembayaran | ✅ Check Circle | Status berubah menjadi **Confirmed** (Hijau) |
+| Tolak / batalkan | ❌ Cancel | Status berubah menjadi **Cancelled** (Merah) |
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+### 3. 🏟️ Manajemen Lapangan
 
-## Struktur Proyek
+Akses menu **Courts** dari sidebar.
 
-<div align="center">
+#### Menambah Lapangan Baru
+1. Klik tombol **+ Tambah Lapangan**
+2. Isi formulir: nama lapangan, tipe (Indoor / Outdoor), harga per jam
+3. Upload foto lapangan *(opsional)*
+4. Klik **Simpan**
+
+#### Mengubah Status Lapangan
+- Toggle status **Aktif / Non-aktif** langsung dari tabel
+- Lapangan non-aktif tidak akan muncul di halaman pemesanan pelanggan
+
+#### Mengedit atau Menghapus Lapangan
+- Klik ikon **✏️ Edit** untuk mengubah data lapangan
+- Klik ikon **🗑️ Delete** lalu konfirmasi untuk menghapus lapangan
+
+---
+
+### 4. 📊 Laporan & Analitik
+
+Akses menu **Laporan** atau lihat langsung di **Dashboard**.
+
+#### Melihat Grafik Pendapatan
+- Pilih rentang waktu: **Harian / Bulanan / Tahunan**
+- Grafik batang interaktif menampilkan tren pendapatan per periode
+- Hover pada grafik untuk melihat detail nominal per hari/bulan
+
+#### Ringkasan Statistik Dashboard
+| Metrik | Keterangan |
+|:-------|:-----------|
+| Total Pendapatan | Akumulasi pembayaran confirmed hari ini |
+| Booking Aktif | Jumlah reservasi berjalan saat ini |
+| Tingkat Okupansi | Persentase lapangan terpakai vs total slot |
+| Booking Pending | Reservasi yang menunggu verifikasi |
+
+---
+
+### 5. 📥 Export Laporan CSV
+
+1. Buka halaman **Laporan**
+2. Pilih **rentang tanggal** yang diinginkan
+3. Klik tombol **⬇️ Export CSV**
+4. File `.csv` akan otomatis terunduh — dapat dibuka di Excel / Google Sheets
+
+> Data yang diekspor mencakup: ID booking, nama, lapangan, tanggal, jam, total bayar, dan status.
+
+---
+
+### 6. 👤 Manajemen Admin
+
+Akses menu **Admin Management** (hanya tersedia untuk Super Admin).
+
+#### Menambah Akun Admin Baru
+1. Klik **+ Tambah Admin**
+2. Isi nama, email, dan password
+3. Klik **Simpan**
+
+#### Menghapus Akun Admin
+- Klik ikon **🗑️ Delete** pada baris admin yang ingin dihapus
+- Konfirmasi penghapusan — aksi ini tidak dapat dibatalkan
+
+---
+
+## 📁 Struktur Folder
 
 ```
-================================================================================
-  STRUKTUR PROYEK (ARCHITECTURE)
-================================================================================
-
 garuda-futsall/
-├── app/
-│   ├── Http/Controllers/Admin/     # Logika utama (Booking, Court, Dashboard)
-│   ├── Models/                     # Definisi Tabel (Booking, Court, User)
-│   └── Services/                   # Layer tambahan untuk business logic
-├── database/
-│   ├── migrations/                 # Skema tabel database (Auto-generate)
-│   └── seeders/                    # Data default (Admin & Dummy Data)
-├── resources/
-│   ├── views/admin/                # Tampilan dashboard (Blade Templates)
-│   └── css/ js/                    # Styling Tailwind & Interaksi JS
-├── routes/
-│   └── web.php                     # Pintu masuk semua URL aplikasi
-├── storage/
-│   └── app/public/                 # Lokasi fisik foto bukti transfer
-├── .env                            # Konfigurasi rahasia (DB & App Key)
-└── README.md                       # Dokumentasi teknis developer
-
-================================================================================
+│
+├── 📂 app/
+│   ├── 📂 Http/
+│   │   ├── 📂 Controllers/
+│   │   │   └── 📂 Admin/
+│   │   │       ├── AuthController.php          # Login & logout admin
+│   │   │       ├── BookingController.php        # Kelola reservasi
+│   │   │       ├── CourtController.php          # Kelola lapangan
+│   │   │       ├── DashboardController.php      # Data statistik & grafik
+│   │   │       └── ReportController.php         # Laporan & export CSV
+│   │   └── 📂 Middleware/
+│   │       └── AdminAuth.php                    # Guard autentikasi admin
+│   ├── 📂 Models/
+│   │   ├── Booking.php
+│   │   ├── Court.php
+│   │   └── User.php
+│   └── 📂 Services/
+│       └── BookingService.php                   # Business logic reservasi
+│
+├── 📂 database/
+│   ├── 📂 migrations/                           # Skema tabel (auto-generate)
+│   │   ├── create_users_table.php
+│   │   ├── create_courts_table.php
+│   │   └── create_bookings_table.php
+│   └── 📂 seeders/
+│       ├── DatabaseSeeder.php
+│       ├── AdminSeeder.php                      # Akun admin default
+│       └── CourtSeeder.php                      # Data lapangan dummy
+│
+├── 📂 resources/
+│   ├── 📂 views/
+│   │   └── 📂 admin/
+│   │       ├── 📂 layouts/
+│   │       │   └── app.blade.php                # Template utama (sidebar, navbar)
+│   │       ├── dashboard.blade.php
+│   │       ├── bookings/
+│   │       │   ├── index.blade.php
+│   │       │   └── show.blade.php
+│   │       ├── courts/
+│   │       │   ├── index.blade.php
+│   │       │   └── form.blade.php
+│   │       └── reports/
+│   │           └── index.blade.php
+│   ├── 📂 css/
+│   │   └── app.css                              # Entry point Tailwind CSS
+│   └── 📂 js/
+│       └── app.js                               # Entry point JavaScript
+│
+├── 📂 routes/
+│   └── web.php                                  # Definisi semua route aplikasi
+│
+├── 📂 storage/
+│   └── 📂 app/public/
+│       └── 📂 payments/                         # Foto bukti transfer pelanggan
+│
+├── 📂 public/
+│   └── index.php                                # Entry point aplikasi
+│
+├── .env.example                                 # Template konfigurasi environment
+├── composer.json                                # Dependensi PHP
+├── package.json                                 # Dependensi Node.js
+└── README.md                                    # Dokumentasi ini
 ```
-
-</div>
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## Design Reference
-
-<div align="center">
+## 🎨 Design Reference
 
 Referensi desain UI/UX sistem ini tersedia di Figma:
 
-[![Open in Figma](https://img.shields.io/badge/Open%20in%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/0ppDoxsrhH5Qd6VoFiWhPw/Untitled?node-id=0-1&t=Y4j3WYPlkrE6gMeW-1)
-
-</div>
+[![Open in Figma](https://img.shields.io/badge/Buka%20di%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/0ppDoxsrhH5Qd6VoFiWhPw/Untitled?node-id=0-1&t=Y4j3WYPlkrE6gMeW-1)
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## Authors & Contributors
-
-<div align="center">
+## 👥 Contributors
 
 Proyek ini dikembangkan dengan penuh dedikasi oleh tim:
+
+<div align="center">
 
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/shac1x">
-        <img src="https://github.com/shac1x.png" width="100px;" style="border-radius:50%;" alt="Shac1x"/>
+        <img src="https://github.com/shac1x.png" width="90px" style="border-radius:50%" alt="Shac1x"/>
         <br/>
-        <sub><b>Shac1x</b></sub>
+        <b>Shac1x</b>
       </a>
       <br/>
-      <img src="https://img.shields.io/badge/Developer-FF6B35?style=flat-square&logo=github&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Developer-FF6B35?style=flat-square"/>
     </td>
     <td align="center">
       <a href="https://github.com/firzaaditiya">
-        <img src="https://github.com/firzaaditiya.png" width="100px;" style="border-radius:50%;" alt="Firza Aditiya"/>
+        <img src="https://github.com/firzaaditiya.png" width="90px" style="border-radius:50%" alt="Firza Aditiya"/>
         <br/>
-        <sub><b>Firza Aditiya</b></sub>
+        <b>Firza Aditiya</b>
       </a>
       <br/>
-      <img src="https://img.shields.io/badge/Developer-FF6B35?style=flat-square&logo=github&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Developer-FF6B35?style=flat-square"/>
     </td>
     <td align="center">
       <a href="https://github.com/manap01">
-        <img src="https://github.com/manap01.png" width="100px;" style="border-radius:50%;" alt="Manap01"/>
+        <img src="https://github.com/manap01.png" width="90px" style="border-radius:50%" alt="Manap01"/>
         <br/>
-        <sub><b>Manap01</b></sub>
+        <b>Manap01</b>
       </a>
       <br/>
-      <img src="https://img.shields.io/badge/Developer-FF6B35?style=flat-square&logo=github&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Developer-FF6B35?style=flat-square"/>
     </td>
   </tr>
 </table>
@@ -419,42 +380,25 @@ Proyek ini dikembangkan dengan penuh dedikasi oleh tim:
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+## 📄 Lisensi
 
-## Lisensi
-
-<div align="center">
-
-Sistem ini merupakan perangkat lunak open-source yang dirilis di bawah lisensi:
+Sistem ini dirilis sebagai perangkat lunak open-source di bawah lisensi:
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-</div>
 
 ---
 
 <div align="center">
 
 ```
-================================================================================
-                    GARUDA FUTSAL - SYSTEM DOCUMENTATION
-================================================================================
-
-  Last Updated   :  2026-03-31
-  Status Project :  PRODUCTION READY
-  Version        :  1.0.0
-  License        :  MIT Open Source
-
-================================================================================
+Last Updated   :  2026-03-31
+Status         :  PRODUCTION READY
+Version        :  1.0.0
+License        :  MIT Open Source
 ```
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
 
-<!-- ANIMATED FOOTER WAVE BOTTOM -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&animation=twinkling" width="100%"/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=888888&center=true&vCenter=true&width=600&lines=Dibuat+dengan+sepenuh+hati+oleh+Tim+Garuda+Futsall+%C2%A9+2025" alt="Footer Typing"/>
+<sub>Dibuat dengan ❤️ oleh Tim Garuda Futsal Arena © 2026</sub>
 
 </div>
