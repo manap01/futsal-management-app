@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- ANIMATED HEADER WAVE TOP -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=GARUDA%20FUTSALL%20ARENA&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=38&desc=%E2%9A%BD%20Modern%20Futsal%20Management%20System&descAlignY=62&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=GARUDA%20FUTSALL%20ARENA&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Modern%20Futsal%20Management%20System%20%7C%20Laravel%2013&descAlignY=62&descSize=18" width="100%"/>
 
-<!-- TYPING ANIMATION SVG -->
+<!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF6B35&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=90&lines=%F0%9F%8F%9F%EF%B8%8F+Selamat+Datang+di+Garuda+Futsall+Arena!;%E2%9A%A1+Built+with+Laravel+13+%2B+Tailwind+CSS;%F0%9F%93%8A+Real-time+Dashboard+%7C+Smart+Booking+System;%F0%9F%94%A5+Glassmorphism+UI+%7C+Full+Responsive" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=FF6B35&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=80&lines=Built+with+Laravel+13+%2B+Tailwind+CSS;Real-time+Dashboard+%7C+Smart+Booking+System;Glassmorphism+UI+%7C+Fully+Responsive+Design" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
@@ -19,14 +19,14 @@
 <br/><br/>
 
 <!-- BADGES ROW 2 -->
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=statuspage&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge&logo=statuspage&logoColor=white"/>
 <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=open-source-initiative&logoColor=white"/>
 <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge&logo=semver&logoColor=white"/>
 <img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions&logoColor=white"/>
 
 <br/><br/>
 
-<!-- OFFICIAL LARAVEL BADGES -->
+<!-- LARAVEL OFFICIAL BADGES -->
 <a href="https://github.com/laravel/framework/actions">
   <img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"/>
 </a>
@@ -45,72 +45,95 @@
 
 </div>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📌 Daftar Isi
+## Daftar Isi
 
 <details>
-<summary><b>▶ Klik untuk membuka navigasi lengkap</b></summary>
+<summary><b>Klik untuk membuka navigasi lengkap</b></summary>
 <br/>
 
-- [Tentang Proyek](#-tentang-proyek)
-- [Fitur Utama](#-fitur-utama)
-- [Tech Stack](#-tech-stack)
-- [Persyaratan Sistem](#-persyaratan-sistem)
-- [Cara Instalasi](#-cara-instalasi)
-- [Akun Default](#-akun-default)
-- [Panduan Admin](#-panduan-penggunaan-admin)
-- [Struktur Proyek](#-struktur-proyek)
-- [Design Reference](#-design-reference)
-- [Contributors](#-authors--contributors)
-- [Lisensi](#-lisensi)
+- [Tentang Proyek](#tentang-proyek)
+- [Fitur Utama](#fitur-utama)
+- [Tech Stack](#tech-stack)
+- [Persyaratan Sistem](#persyaratan-sistem)
+- [Cara Instalasi](#cara-instalasi)
+- [Akun Default](#akun-default)
+- [Panduan Admin](#panduan-penggunaan-admin)
+- [Struktur Proyek](#struktur-proyek)
+- [Design Reference](#design-reference)
+- [Contributors](#authors--contributors)
+- [Lisensi](#lisensi)
 
 </details>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🏟️ Tentang Proyek
+## Tentang Proyek
 
 <img align="right" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 **GARUDA FUTSALL ARENA** adalah sistem manajemen arena futsal yang komprehensif dan modern. Platform ini mencakup seluruh alur operasional arena secara digital:
 
-- ⚡ **Reservasi Lapangan** real-time tanpa antrian
-- 💳 **Verifikasi Pembayaran** otomatis via foto bukti transfer
-- 📊 **Dashboard Analitik** dengan grafik pendapatan interaktif
-- 🖨️ **Export Laporan** ke CSV/Excel dengan satu klik
-- 👤 **Multi-Admin Management** dengan hak akses terintegrasi
-- 🎨 **UI Glassmorphism** yang futuristik & responsive
+- Reservasi lapangan real-time tanpa antrian
+- Verifikasi pembayaran otomatis via foto bukti transfer
+- Dashboard analitik dengan grafik pendapatan interaktif
+- Export laporan ke CSV/Excel dengan satu klik
+- Multi-Admin management dengan hak akses terintegrasi
+- UI Glassmorphism yang futuristik dan fully responsive
 
 Dibangun di atas fondasi **Laravel 13** — cocok untuk skala kecil maupun besar.
 
 <br clear="right"/>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 <div align="center">
 
-| 🔥 Fitur | 📋 Deskripsi | 🏷️ Status |
-|:---|:---|:---:|
-| **Dashboard Real-time** | Pantau pendapatan harian, slot aktif & okupansi lapangan secara live | ✅ Ready |
-| **Manajemen Booking** | Kelola reservasi, verifikasi bukti bayar (foto), konfirmasi status | ✅ Ready |
-| **Manajemen Lapangan** | Tambah, edit & kelola lapangan Indoor / Outdoor | ✅ Ready |
-| **Laporan Performa** | Analisis pendapatan bulanan & tahunan dengan grafik interaktif | ✅ Ready |
-| **Export CSV** | Unduh data transaksi ke Excel format rapi & profesional | ✅ Ready |
-| **Multi-Admin** | Kelola akun admin tambahan dengan hak akses terintegrasi | ✅ Ready |
-| **UI Glassmorphism** | Desain futuristik, modern, responsif semua perangkat | ✅ Ready |
+```
+================================================================================
+                    GARUDA FUTSAL - SYSTEM DOCUMENTATION
+================================================================================
+
+  FITUR UTAMA SISTEM
+--------------------------------------------------------------------------------
+  Fitur                  | Deskripsi                                   | Status
+--------------------------------------------------------------------------------
+  Dashboard Real-time    | Monitor pendapatan, slot aktif & okupansi   | Ready
+  Manajemen Booking      | Kelola reservasi & verifikasi status bayar  | Ready
+  Manajemen Lapangan     | Kelola data lapangan Indoor & Outdoor        | Ready
+  Laporan Performa       | Analisis grafik pendapatan bulanan/tahunan  | Ready
+  Export CSV             | Unduh data transaksi ke format Excel/CSV    | Ready
+  Multi-Admin            | Manajemen akun admin, akses terintegrasi    | Ready
+  UI Glassmorphism       | Desain modern, futuristik & responsif       | Ready
+--------------------------------------------------------------------------------
+```
 
 </div>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+| Fitur | Deskripsi | Status |
+|:---|:---|:---:|
+| **Dashboard Real-time** | Monitor pendapatan, slot aktif & okupansi live | ✅ Ready |
+| **Manajemen Booking** | Kelola reservasi & verifikasi status bayar | ✅ Ready |
+| **Manajemen Lapangan** | Kelola data lapangan Indoor & Outdoor | ✅ Ready |
+| **Laporan Performa** | Analisis grafik pendapatan bulanan/tahunan | ✅ Ready |
+| **Export CSV** | Unduh data transaksi ke format Excel/CSV | ✅ Ready |
+| **Multi-Admin** | Manajemen akun admin dengan akses terintegrasi | ✅ Ready |
+| **UI Glassmorphism** | Desain modern, futuristik & responsif | ✅ Ready |
+
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -142,10 +165,11 @@ Dibangun di atas fondasi **Laravel 13** — cocok untuk skala kecil maupun besar
 
 </div>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📋 Persyaratan Sistem
+## Persyaratan Sistem
 
 ```
 PHP       >= 8.3
@@ -155,28 +179,27 @@ Node.js   >= 18.x
 NPM       >= 9.x
 ```
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## ⚙️ Cara Instalasi
+## Cara Instalasi
 
-> Ikuti langkah-langkah berikut secara berurutan untuk menjalankan proyek di lokal.
-
-### ▸ Langkah 1 — Clone Repository
+### Langkah 1 — Clone Repository
 
 ```bash
 git clone https://github.com/your-repo/garuda-futsall.git
 cd garuda-futsall
 ```
 
-### ▸ Langkah 2 — Instal Dependensi PHP & Node
+### Langkah 2 — Instal Dependensi PHP & Node
 
 ```bash
 composer install
 npm install && npm run build
 ```
 
-### ▸ Langkah 3 — Konfigurasi Environment
+### Langkah 3 — Konfigurasi Environment
 
 ```bash
 cp .env.example .env
@@ -194,13 +217,13 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### ▸ Langkah 4 — Migrasi Database & Seed Data
+### Langkah 4 — Migrasi Database & Seed Data
 
 ```bash
 php artisan migrate --seed
 ```
 
-### ▸ Langkah 5 — Jalankan Server
+### Langkah 5 — Jalankan Server
 
 ```bash
 php artisan serve
@@ -208,14 +231,15 @@ php artisan serve
 
 <div align="center">
 
-> Aplikasi berjalan di → **`http://127.0.0.1:8000`**
+> Aplikasi berjalan di **`http://127.0.0.1:8000`**
 
 </div>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🔐 Akun Default
+## Akun Default
 
 <div align="center">
 
@@ -226,77 +250,120 @@ Setelah seeder berjalan, gunakan kredensial berikut untuk login:
 | **Username / Email** | `putsall123` |
 | **Password** | `putsall123` |
 
-> ⚠️ **Peringatan Keamanan:** Segera ganti password setelah login pertama kali!
+> **Peringatan Keamanan:** Segera ganti password setelah login pertama kali!
 
 </div>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📖 Panduan Penggunaan Admin
+## Panduan Penggunaan Admin
+
+<div align="center">
+
+```
+================================================================================
+  PANDUAN PENGGUNAAN ADMIN
+================================================================================
+```
+
+</div>
 
 <details>
 <summary><b>1. Login ke Sistem</b></summary>
 <br/>
-Akses <code>http://127.0.0.1:8000/admin</code> lalu masukkan username dan password admin.
-<br/><br/>
+
+- Masuk ke halaman admin menggunakan email dan password yang terdaftar.
+- Dashboard akan menampilkan ringkasan aktivitas futsal hari ini.
+
+<br/>
 </details>
 
 <details>
 <summary><b>2. Verifikasi Bukti Pembayaran</b></summary>
 <br/>
-Buka menu <b>Booking</b> → klik ikon gambar <i>(Bukti)</i> untuk melihat foto bukti transfer yang dikirim oleh pemesan.
-<br/><br/>
+
+- Buka menu **Booking Management**
+- Klik ikon **Image** pada kolom `Bukti` untuk melihat foto transfer
+- Foto akan muncul dalam modal (bisa di-scroll jika gambar panjang)
+
+<br/>
 </details>
 
 <details>
 <summary><b>3. Konfirmasi Booking</b></summary>
 <br/>
-Setelah bukti pembayaran valid, klik ikon <b>centang ✓</b> untuk mengonfirmasi booking dan mengubah status menjadi aktif.
-<br/><br/>
+
+- Setelah bukti pembayaran valid, klik tombol **Check Circle** (Konfirmasi)
+- Status akan berubah menjadi `Confirmed` — ditandai warna **Hijau**
+- Jika batal, klik tombol **Cancel** — ditandai warna **Merah**
+
+<br/>
 </details>
 
 <details>
 <summary><b>4. Export Laporan CSV</b></summary>
 <br/>
-Klik tombol <b>Export CSV</b> di halaman <b>Dashboard</b> atau <b>Reports</b> untuk mengunduh laporan keuangan bulanan dalam format Excel.
-<br/><br/>
+
+- Masuk ke halaman **Laporan / Dashboard**
+- Pilih range waktu yang diinginkan
+- Klik tombol **Export** untuk mengunduh data dalam format `.csv` (Excel)
+
+<br/>
 </details>
 
 <details>
 <summary><b>5. Manajemen Lapangan</b></summary>
 <br/>
-Buka menu <b>Lapangan</b> → klik <b>Tambah Lapangan</b> → isi nama, jenis (Indoor/Outdoor), dan harga per jam.
-<br/><br/>
+
+- Masuk ke menu **Courts**
+- Tambah lapangan baru atau ubah status lapangan aktif / non-aktif
+
+<br/>
 </details>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📁 Struktur Proyek
+## Struktur Proyek
+
+<div align="center">
 
 ```
+================================================================================
+  STRUKTUR PROYEK (ARCHITECTURE)
+================================================================================
+
 garuda-futsall/
-├── 📂 app/
-│   ├── Http/Controllers/     # Controller utama aplikasi
-│   ├── Models/               # Eloquent Models
-│   └── Services/             # Business Logic Layer
-├── 📂 database/
-│   ├── migrations/           # Skema database
-│   └── seeders/              # Data awal (termasuk akun admin)
-├── 📂 resources/
-│   ├── views/                # Blade templates
-│   └── css/ js/              # Assets frontend
-├── 📂 routes/
-│   └── web.php               # Routing aplikasi
-├── 📄 .env.example           # Template konfigurasi environment
-└── 📄 README.md              # Dokumentasi ini
+├── app/
+│   ├── Http/Controllers/Admin/     # Logika utama (Booking, Court, Dashboard)
+│   ├── Models/                     # Definisi Tabel (Booking, Court, User)
+│   └── Services/                   # Layer tambahan untuk business logic
+├── database/
+│   ├── migrations/                 # Skema tabel database (Auto-generate)
+│   └── seeders/                    # Data default (Admin & Dummy Data)
+├── resources/
+│   ├── views/admin/                # Tampilan dashboard (Blade Templates)
+│   └── css/ js/                    # Styling Tailwind & Interaksi JS
+├── routes/
+│   └── web.php                     # Pintu masuk semua URL aplikasi
+├── storage/
+│   └── app/public/                 # Lokasi fisik foto bukti transfer
+├── .env                            # Konfigurasi rahasia (DB & App Key)
+└── README.md                       # Dokumentasi teknis developer
+
+================================================================================
 ```
 
-<!-- ANIMATED SNAKE DIVIDER -->
+</div>
+
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🎨 Design Reference
+## Design Reference
 
 <div align="center">
 
@@ -306,14 +373,15 @@ Referensi desain UI/UX sistem ini tersedia di Figma:
 
 </div>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 👥 Authors & Contributors
+## Authors & Contributors
 
 <div align="center">
 
-Proyek ini dikembangkan dengan penuh dedikasi oleh tim hebat:
+Proyek ini dikembangkan dengan penuh dedikasi oleh tim:
 
 <table>
   <tr>
@@ -349,10 +417,11 @@ Proyek ini dikembangkan dengan penuh dedikasi oleh tim hebat:
 
 </div>
 
-<!-- ANIMATED SNAKE DIVIDER -->
+---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📜 Lisensi
+## Lisensi
 
 <div align="center">
 
@@ -362,11 +431,30 @@ Sistem ini merupakan perangkat lunak open-source yang dirilis di bawah lisensi:
 
 </div>
 
+---
+
+<div align="center">
+
+```
+================================================================================
+                    GARUDA FUTSAL - SYSTEM DOCUMENTATION
+================================================================================
+
+  Last Updated   :  2026-03-31
+  Status Project :  PRODUCTION READY
+  Version        :  1.0.0
+  License        :  MIT Open Source
+
+================================================================================
+```
+
+</div>
+
 <!-- ANIMATED FOOTER WAVE BOTTOM -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&animation=twinkling" width="100%"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=888888&center=true&vCenter=true&width=550&lines=Dibuat+dengan+%E2%9D%A4%EF%B8%8F+oleh+Tim+Garuda+Futsall+%C2%A9+2025" alt="Footer"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=888888&center=true&vCenter=true&width=600&lines=Dibuat+dengan+sepenuh+hati+oleh+Tim+Garuda+Futsall+%C2%A9+2025" alt="Footer Typing"/>
 
 </div>
