@@ -400,6 +400,6 @@ Sistem ini dirilis sebagai perangkat lunak open-source di bawah **lisensi MIT**.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
 
-<sub>Dibuat dengan ❤️ oleh Tim Garuda Futsal Arena © 2026</sub>
+<sub>Dibuat dengan oleh Tim Garuda Futsal Arena © 2026</sub>
 
 </div>
