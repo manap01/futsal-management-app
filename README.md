@@ -389,16 +389,15 @@ Sistem ini dirilis sebagai perangkat lunak open-source di bawah lisensi:
 ---
 
 <div align="center">
-
-```
-Last Updated   :  2026-03-31
-Status         :  PRODUCTION READY
-Version        :  1.0.0
-License        :  MIT Open Source
-```
-
+ 
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--31-blue?style=flat-square)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat-square)
+ 
+<br/>
+ 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
-
+ 
 <sub>Dibuat dengan ❤️ oleh Tim Garuda Futsal Arena © 2026</sub>
-
+ 
 </div>
